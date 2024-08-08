@@ -1,5 +1,5 @@
-Postman collectionda aşağıda paylaştıklarıma benzer testler yer alıyor.
-Bunlar arasında özetle 
+Postman collectionda aşağıda paylaştıklarıma benzer testler yer alıyor. <br />
+Bunlar arasında özetle yer alan testler :
   * Statüs kontrolü,
   * Response içerisindeki alanların kontrolü
   * Alanlara ait değerlerin kontrolü
@@ -11,7 +11,7 @@ Bunlar arasında özetle
   * Response üzerinde filtreleme işlemi
   * Birbirini takip eden farklı requestlerin ardı ardına çağırılması
 
-
+```
 console.log("test log");
 console.warn("test warning");
 console.info("test info");
@@ -144,6 +144,4 @@ pm.test("Response time is less than 200ms", function () {
 postman.setNextRequest("RegisterApiClient"); //collection testlerinden bundan sonra çalıştırılacak request ismi ile devam edilecek request belirlenebilir. Sonraki çalıştırılacak request ile setNextRequest belirtilen request arasında bir request var ise çalıştırılmaz.
 postman.setNextRequest(null); //collection testlerinde collectiondaki requestlerin sıralamasına göre testin burada biteceğini ifade eder. Sıralamay göre yukarıdan aşağı gelerek en son burada biter. Devamında bir request varsa colleciton testlerinde çalıştırılmaz.
 
-
-
-
+```
