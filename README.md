@@ -1,6 +1,6 @@
 Postman collectionda aşağıda paylaştıklarıma benzer testler yer alıyor. <br />
 Bunlar arasında özetle yer alan testler :
-  * Statüs kontrolü,
+  * Statü kontrolü,
   * Response içerisindeki alanların kontrolü
   * Alanlara ait değerlerin kontrolü
   * Alanların tip kontrolü
